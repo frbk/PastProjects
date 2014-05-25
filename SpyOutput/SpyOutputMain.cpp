@@ -1,4 +1,4 @@
-#include "Spyoutput.h"
+#include "SpyOutput.h"
 #define endl  '\n'
 
 int main(){
@@ -9,6 +9,6 @@ int main(){
 	spy << "abc" << endl;
 	spy << "d1=" << d1 << " i1=" << i1 << "z" << endl;
 	cout << "count=" << spy.getCount() << endl;
-	cout << "Check Sum=" << spygetCheckSum() << endl;
+	cout << "Check Sum=" << spy.getCheckSum() << endl;
 	return 0;
 }
