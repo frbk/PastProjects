@@ -1,0 +1,8 @@
+000100140310     A                                      UNIQUE
+000101140310     A          R MARKSR
+000102140310     A            STUDENTID      9S 0       COLHDG('STUDENT' 'ID')
+000103140310     A            COURSE_CD      6          COLHDG('COURSE' 'CODE')
+000104140310     A            FINAL_MARK     3S 0       COLHDG('FINAL' 'MARK')
+000105140310     A            DATERUN         L
+000106140310     A          K STUDENTID
+000107140310     A          K COURSE_CD

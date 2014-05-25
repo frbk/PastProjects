@@ -1,0 +1,47 @@
+000001140318     A* Free Form Menu: MYWORK                                                                      
+000010140318     A*%%TS  SD  20140318  122828  BA233B18    REL-V7R1M0  5770-WDS                                 
+000020140318     A*%%EC                                                                                         
+000030140318     A                                      DSPSIZ(24 80 *DS3                  -                    
+000040140318     A                                             27 132 *DS4)                                     
+000050140318     A                                      CHGINPDFT                                               
+000060140318     A                                      INDARA                                                  
+000070140318     A                                      PRINT(*LIBL/QSYSPRT)                                    
+000080140317     A          R MYWORK                                                                            
+000090140317     A*%%TS  SD  20140317  223124  BA233B18    REL-V7R1M0  5770-WDS                                 
+000100140317     A                                      DSPMOD(*DS3)                                            
+000110140317     A                                      LOCK                                                    
+000120140317     A                                      SLNO(01)                                                
+000130140317     A                                      CLRL(*ALL)                                              
+000140140317     A                                      ALWROL                                                  
+000150140317     A                                      CF03                                                    
+000160140317     A                                      HELP                                                    
+000170140317     A                                      HOME                                                    
+000180140317     A                                      HLPRTN                                                  
+000190140317     A                                  1  2'MYWORK'                                                
+000200140317     A                                      COLOR(BLU)                                              
+000210140317     A                                  3  2'Select one of the following:'                          
+000220140317     A                                      COLOR(BLU)                                              
+000230140317     A                                  5  7'1.'                                                    
+000240140317     A                                  6  7'2.'                                                    
+000250140317     A                                  7  7'3.'                                                    
+000260140317     A                                  8  7'4.'                                                    
+000270140317     A                                  9  7'5.'                                                    
+000280140317     A                                 10  7'6.'                                                    
+000290140317     A                                 11  7'7.'                                                    
+000300140317     A* CMDPROMPT  Do not delete this DDS spec.                                                     
+000310140317     A                                019  2'Selection or command              -                    
+000320140317     A                                          '                                                   
+000330140317     A                                  1 34'My Classroom Work in IBC233'                           
+000340140317     A                                  1 72DATE                                                    
+000350140317     A                                      EDTCDE(Y)                                               
+000360140317     A                                  2 72TIME                                                    
+000370140317     A                                  5 10'Enter Marks'                                           
+000380140317     A                                  6 10'Investigate System'                                    
+000390140317     A                                  7 10'View Student Marks'                                    
+000400140317     A                                  8 10'Add/Change/Delete Students'                            
+000410140317     A                                  9 10'Show System Level'                                     
+000420140317     A                                 10 10'View My Objects (Default is Progra-                    
+000430140317     A                                      ms)'                                                    
+000440140317     A                                 11 10'View My Source Files'                                  
+000450140317     A                                 12  6'90.'                                                   
+000460140317     A                                 12 10'Sign off'                                              

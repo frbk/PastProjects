@@ -1,0 +1,21 @@
+000100140311CMD 'DISPLAY SYSTEM LEVEL'
+000101140311PARM KWD(OUTPUT) +
+000102140311     MIN(1)      +
+000103140311     TYPE(*CHAR) LEN(9) +
+000104140311     RSTD(*YES)          +
+000105140311     VALUES(*MSGLINE *DISPLAY *PRINTER) +
+000106140311     PROMPT('OUTPUT FOR SYSTEM LEVEL:')  +
+000107140311
+000108140311PARM KWD(SOLUTION)                        +
+000109140311     TYPE(*CHAR) LEN(4)                    +
+000110140311     RSTD(*YES)                            +
+000111140311     VALUES(*YES *NO)                      +
+000112140311     DFT(*NO)                               +
+000113140311     PROMPT('TELL ME HOW YOU DID IT:')       +
+000114140311
+000115140311PARM KWD(SHOWCMD)                            +
+000116140311     TYPE(*CHAR) LEN(4)                       +
+000117140311     RSTD(*YES)                               +
+000118140311     VALUES(*YES *NO)                          +
+000119140311     DFT(*NO)                                   +
+000120140311     PROMPT('SHOW THIS COMMAND:')X

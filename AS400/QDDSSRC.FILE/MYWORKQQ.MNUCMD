@@ -1,0 +1,9 @@
+000001140318MYWORKQQ,1                                                                                          
+0000101403180001 call marksrpg                                                                                  
+0000111403180002 call lab4                                                                                      
+0000121403180003 runqry *n studmarks                                                                            
+0000131403180004 upddta students                                                                                
+0000141403180005 dspsyslvl *msgline                                                                             
+0000151403180006 ? WRKOBJPDM LIB(BA233B18) OBJTYPE(*PGM)                                                        
+0000161403180007 WRKOBJPDM LIB(BA233B18) OBJTYPE(*FILE) OBJATR('pf-src')                                        
+0000171403180090 signoff                                                                                        

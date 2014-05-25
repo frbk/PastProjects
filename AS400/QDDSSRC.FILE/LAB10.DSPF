@@ -1,0 +1,20 @@
+000100
+000101120403     A          R RECORD1
+000102120403     A                                  2 68DATE
+000103120403     A                                      EDTWRD('  /  /  ')
+000104120403     A                                  2 28'Payroll Program Completed'
+000105120403     A                                  2  4'Fedor Barannik'
+000106120403     A                                  5 15'Rates:'
+000107120403     A                                 10 14'Totals:'
+000108120403     A                                  6 26'Day Rates:'
+000109120403     A                                  7 26'Afternoon Rates:'
+000110120403     A                                  8 26'Night Rates:'
+000111120403     A                                 13 26'Company Payout:'
+000112120403     A                                 11 26'Regular Pay:'
+000113120403     A                                 12 26'Overtime Pay:'
+000116120403     A            TOTREGPAY      9  2O 11 45EDTWRD(' ,   ,   . 0')
+000117120403     A            TOTEMPPAY      9  2O 13 44EDTWRD(' ,   ,   . $0')
+000119120403     A            TOTOVTPAY      9  2O 12 45EDTWRD(' ,   ,   . 0')
+000121120403     A            DAYRATE        5  2O  6 44EDTWRD('0  .  ')
+000122120403     A            AFTNRATE       5  2O  7 44EDTWRD('0  .  ')
+000123120403     A            NIGHTRATE      5  2O  8 44EDTWRD('0  .  ')

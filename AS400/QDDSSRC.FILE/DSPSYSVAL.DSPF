@@ -1,0 +1,16 @@
+000100120321     A          R COMMANDBY                 CA03(03 'Exit')
+000115120321     A                                      OVERLAY
+000116140311     A  04                              7 26'COMMAND PROVIDED BY FEDOR BARANNIK'
+000117120321     A          R RECORD1                   CA03(03 'Exit')
+000118120321     A                                      CA04(04 'CommandBy')
+000119120321     A                                      OVERLAY
+000120120320     A                                  2 31'DISPLAY SYSTEM LEVEL'
+000121120320     A                                  2  3USER
+000122120320     A                                  2 72SYSNAME
+000123120320     A                                  5 26'Version:'
+000124120320     A                                  9 21'Modification:'
+000125120320     A                                  7 26'Release:'
+000126120320     A                                 11 28'F4- Command Provided By...'
+000127120321     A            SYSLVLR        2N 0O  7 38
+000128120321     A            SYSLVLV        2N 0O  5 38
+000129120321     A            SYSLVLM        2N 0O  9 38

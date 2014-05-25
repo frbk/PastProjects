@@ -1,0 +1,50 @@
+000001121123     A          R TITLE
+000002121123     A                                  1  3DATE
+000003121123     A                                  1 10TIME
+000004140401     A                                  2  3'Fedor Barannik'
+000005121123     A                                  1 78PAGNBR
+000006121123     A                                  1 73'Page:'
+000007121123     A                                  1 38'Weekly Payroll Report'
+000008140401     A            SHIFTTYPE     30      2 38
+000009121123     A          R COLHDG                    SPACEB(2)
+000010121123     A                                     4'Employee'
+000012121123     A                                    16'Work'
+000013121123     A                                    23'Pay'
+000014121123     A                                    32'Hourly'
+000015121123     A                                    42'Hours'
+000016121123     A                                    56'Regular'
+000017121123     A                                    72'Overtime'
+000018121123     A                                    90'Total'
+000019121123     A                                     5'Number'
+000020121123     A                                      SPACEB(1)
+000021121123     A                                    16'Shift'
+000022121123     A                                    23'Grade'
+000023121123     A                                    33'Rate'
+000024121123     A                                    42'Worked'
+000025121123     A                                    58'Pay'
+000026121123     A                                    74'Pay'
+000027121123     A                                    91'Pay'
+000028121123     A          R EMPDETAIL
+000032121123     A            EMPNUM    R              2
+000033121123     A                                      REFFLD(ALLSHIFT/EMPNUM SENECAPAY/AL-
+000034121123     A                                      LSHIFT)
+000035121123     A                                      SPACEB(2)
+000036121126     A                                      EDTWRD('0   -   -   ')
+000037121123     A            WORKSHIFT R             17
+000038121123     A                                      REFFLD(ALLSHIFT/WORKSHIFT +
+000039121123     A                                      SENECAPAY/ALLSHIFT)
+000040121123     A            PAYGRADE  R             24REFFLD(ALLSHIFT/PAYGRADE +
+000041121123     A                                      SENECAPAY/ALLSHIFT)
+000042121126     A            HOURLYRATE     5  2     32EDTCDE(2)
+000043121123     A            HRSWORKED R             43
+000044121123     A                                      REFFLD(ALLSHIFT/HRSWORKED +
+000045121123     A                                      SENECAPAY/ALLSHIFT)
+000046121123     A            REGULARPAY     6  2     55EDTCDE(2)
+000047121123     A            OVERPAY        6  2     71EDTCDE(2)
+000048121123     A            TOTALPAY       6  2     88EDTCDE(2)
+000049121123     A          R TOTALS                    SPACEB(3)
+000055121123     A                                    40'Totals:'
+000056121123     A            TOTREGPAY      9  2     53EDTCDE(1 $)
+000058121123     A            TOTOVTPAY      9  2     69EDTCDE(1 $)
+000060121123     A            TOTEMPPAY      9  2     86EDTCDE(1 $)
+000100      

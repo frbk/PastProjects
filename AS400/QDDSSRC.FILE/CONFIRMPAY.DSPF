@@ -1,0 +1,20 @@
+000001121126     A          R RECORD1
+000002121126     A                                  2  4USER
+000003121126     A                                  3  4'Fedor Barannik'
+000004121126     A                                  2 31'Payroll Program Completed'
+000005121126     A                                  2 70DATE
+000006121126     A                                  6 14'Rates:'
+000007121126     A                                 11 13'Totals:'
+000008121126     A                                  7 26'Day Rate:'
+000009121126     A                                  8 26'Afternoon Rate:'
+000010121126     A                                  9 26'Night Rate:'
+000011121126     A                                 12 26'Regular Pay:'
+000012121126     A                                 13 26'Overtime Pay:'
+000013121126     A                                 14 26'Company Payout:'
+000014121126     A            DAYR           5Y 2O  7 47EDTCDE(2)
+000015121126     A            AFTERR         5Y 2O  8 47EDTCDE(2)
+000016121126     A            NIGHTR         5Y 2O  9 47EDTCDE(2)
+000017121126     A            REGPAY         8Y 2O 12 47EDTCDE(2)
+000018121126     A            COMPAY         8Y 2O 14 46EDTCDE(2 $)
+000019121126     A            OVTPAY         8Y 2O 13 47EDTCDE(2)
+000100

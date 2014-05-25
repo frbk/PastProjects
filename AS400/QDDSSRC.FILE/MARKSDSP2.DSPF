@@ -1,0 +1,67 @@
+000600120307     A          R RECORD1
+000601140310     A                                  2 71DATE
+000602140304     A                                      EDTCDE(Y)
+000800140310     A                                  3 71TIME
+000900140310     A                                  2 30'Marks Calculator'
+001000140310     A                                  4 22'Test 1:'
+001100140310     A                                  5 22'Test 2:'
+001200140310     A                                  6 22'Test 3:'
+001300140310     A                                  7 22'Labs:'
+001400140310     A                                  8 22'Exam:'
+001500140310     A            TEST1          3  0B  4 30RANGE(0 100)
+001501120307     A  50                                  DSPATR(PR)
+001600140310     A            TEST2          3  0B  5 30RANGE(0 100)
+001601120307     A  50                                  DSPATR(PR)
+001700140310     A            TEST3          3  0B  6 30RANGE(0 100)
+001701120307     A  50                                  DSPATR(PR)
+001800140310     A            LABS           2  0B  7 31RANGE(0 30)
+001801120307     A  50                                  DSPATR(PR)
+001900140310     A            EXAM           3  0B  8 30RANGE(0 100)
+001901120307     A  50                                  DSPATR(PR)
+002000140310     A                                  2  2USER
+002100140310     A                                  3  4SYSNAME
+002104140310     A  31                              4 36'This Test Mark Dropped'
+002105140311     A  32                                  DSPATR(PC)
+002107140310     A  32                              5 36'This Test Mark Dropped'
+002108140311     A  33                                  DSPATR(PC)
+002110140310     A  33                              6 36'This Test Mark Dropped'
+002112140311     A  51                              8 36'Automatic F with exam mark below 5-
+002113140311     A                                      5'
+002115140311     A  51                                  DSPATR(RI)
+002116140311     A  51                                  COLOR(RED)
+002117120307     A          R RECORD2                   CA03(03 'Exit')
+002300120131     A                                      OVERLAY
+002400120131     A                                  9 22'Tests:'
+002500120131     A                                 11 17'Final Mark:'
+002600120131     A                                 13 16'Final Grade:'
+002700120131     A                                 15 19'F3- Exit'
+002800140304     A            TESTOVRALL     3  0O  9 30EDTCDE(A)
+002900140304     A            NUMGRADE       3  0O 11 30EDTCDE(A)
+003000120307     A            LETGRADE       2   O 13 30
+003001120306     A  40                                  DSPATR(RI)
+003003120306     A  40                                  DSPATR(PC)
+003004120307     A  40                              9 36'Automatic F with Test Average belo-
+003006120307     A                                      w 55'
+003007120306     A          R RECORD3                   CA03(03 'Exit')
+003101120306     A                                      OVERLAY
+003104120307     A                                  1 34'Mark Statistics'
+003105120306     A                                  1 71DATE
+003106140304     A                                      EDTCDE(Y)
+003107120306     A                                  2 71TIME
+003108140304     A                                  1  3'Fedor Barannik'
+003112120306     A                                  3 35'Pass:'
+003113120306     A                                  5 35'Fail:'
+003114120306     A                                  7 21'Total Mark Queries:'
+003115120306     A                                  9 26'Average Grade:'
+003116120307     A            PASS           3  0O  3 44
+003117140311     A            AVERAGE        3  0O  9 44EDTCDE(A)
+003118140311     A            FAIL           3  0O  5 44EDTCDE(A)
+003119140311     A            QUERIES        3  0O  7 44EDTCDE(A)
+003120120306
+003121120306
+003300120131
+003400120131
+003500120131
+003600120131
+003700120131
+003800120131

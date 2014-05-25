@@ -1,0 +1,4 @@
+000100140310     A                                      UNIQUE
+000101140310     A          R STUDENTSR                 PFILE(STUDENTS)
+000102140310     A          K LASTNAME
+000103140310     A          S FEESOWED                  COMP(GT 0)

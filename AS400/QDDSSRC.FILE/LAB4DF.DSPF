@@ -1,0 +1,35 @@
+000001140217     A          R RECORD1
+000004140211     A                                      CA03(03 'Exit')
+000005140211     A                                      CF21(21)
+000006140211     A                                  4 72'LAB4DF'
+000007140211     A                                  2 38'Lab 4'
+000008140211     A                                  2  3'Fedor Barannik'
+000009140211     A                                  5 11'Please select one of the following-
+000010140211     A                                       options:'
+000011140211     A                                  6 19'1. IPL Type (Initial Program Load -
+000012140211     A                                      for System Reboot)'
+000013140211     A                                  7 19'2. Maximum Password Length'
+000014140217     A                                  9 19'4. Signed on User''s Initial Progr-
+000015140217     A                                      am'
+000016140217     A                                 10 19'5. My % of the storage used'
+000017140217     A                                 11 19'6. Send a Message'
+000018140217     A                                 12 22'Option: '
+000019140217     A                                 14  9'Message Queue:'
+000020140217     A                                 15 10'Message Text:'
+000021140211     A                                 19  3'F3 = Exit'
+000022140211     A                                 19 20'F21 = Command Line'
+000023140217     A            OPTION         2   B 12 32
+000024140211     A  30                                  DSPATR(RI)
+000025140211     A  30                                  DSPATR(PC)
+000026140217     A            MSGQUEUE      10   B 14 24
+000027140217     A  31                                  DSPATR(RI)
+000029140217     A            MSGTXT        50   B 15 24
+000030140217     A  32                                  DSPATR(RI)
+000032140211     A            OUTPUT        70   O 17  5
+000033140211     A                                  2 72DATE
+000034140211     A                                      EDTCDE(Y)
+000035140211     A                                  3 70TIME
+000036140217     A                                  8 19'3. Who is runnin this program?'
+000037140217     A  31                             14 38'Please enter Message Queue'
+000038140217     A  32                             16 24'Please enter  a message'
+000100      

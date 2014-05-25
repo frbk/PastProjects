@@ -1,0 +1,31 @@
+000001140126     A          R RECORD1
+000002140126     A                                  2 71DATE
+000003140126     A                                  3  3SYSNAME
+000004140126     A                                  2  3USER
+000005140126     A                                  2 29'Marks Calculator'
+000006140126     A                                  4 27'Test 1:'
+000007140126     A                                  5 27'Test 2:'
+000008140126     A                                  6 27'Test 3:'
+000009140126     A                                  7 27'Labs:'
+000010140126     A                                  8 27'Exam:'
+000011140126     A                                  3 71TIME
+000012140126     A            TEST1          3  0B  4 36RANGE(0 100)
+000013140203     A  40                                  DSPATR(PR)
+000014140126     A            TEST2          3  0B  5 36RANGE(0 100)
+000015140203     A  40                                  DSPATR(PR)
+000016140126     A            TEST3          3  0B  6 36RANGE(0 100)
+000017140203     A  40                                  DSPATR(PR)
+000018140126     A            LABS           2  0B  7 37RANGE(0 30)
+000019140203     A  40                                  DSPATR(PR)
+000020140126     A            EXAM           3  0B  8 36RANGE(0 100)
+000021140203     A  40                                  DSPATR(PR)
+000022140126     A          R RECORD2                   CA03(03 'Exit')
+000023140126     A                                      OVERLAY
+000024140126     A                                 12 25'Tests:'
+000025140126     A                                 14 20'Final Mark:'
+000026140126     A                                 16 19'Final Grade:'
+000027140126     A                                 18 11'F3-Exit'
+000028140126     A            TESTOVRALL     3  0O 12 34EDTCDE(A)
+000029140126     A            NUMGRADE       3  0O 14 34EDTCDE(A)
+000030140126     A            LETGRADE       2   O 16 35
+000100      

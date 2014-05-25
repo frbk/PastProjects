@@ -1,0 +1,21 @@
+000100140401     A          R RECORD1
+000101140401     A                                  2  4USER
+000102140401     A                                  3  4'Fedor Barannik'
+000103140401     A                                  2 31'Payroll Program Completed'
+000104140401     A                                  2 70DATE
+000105140401     A                                  6 14'Rates:'
+000106140401     A                                 11 13'Totals:'
+000107140401     A                                  7 26'Day Rate:'
+000108140401     A                                  8 26'Afternoon Rate:'
+000109140401     A                                  9 26'Night Rate:'
+000110140401     A                                 12 26'Regular Pay:'
+000111140401     A                                 13 26'Overtime Pay:'
+000112140401     A                                 14 26'Company Payout:'
+000113140401     A            DAYR           5Y 2O  7 47EDTCDE(2)
+000114140401     A            AFTERR         5Y 2O  8 47EDTCDE(2)
+000115140401     A            NIGHTR         5Y 2O  9 47EDTCDE(2)
+000116140401     A            REGPAY         8Y 2O 12 47EDTCDE(2)
+000117140401     A            COMPAY         8Y 2O 14 46EDTCDE(2 $)
+000118140401     A            OVTPAY         8Y 2O 13 47EDTCDE(2)
+000119140401     A            SHIFTTYPE     30   O 10 35
+000120140401

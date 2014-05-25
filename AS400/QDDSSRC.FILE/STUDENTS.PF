@@ -1,0 +1,16 @@
+000001140121     A                                      UNIQUE
+000002140121     A          R STUDENTSR                 TEXT('STUDENT REGISTER')
+000003140121     A            STUDENTNO      9S 0       COLHDG('STUDENT' 'NUMBER')
+000004140121     A                                      EDTWRD('0   -   -   ')
+000005140121     A            FIRSTNAME     15          COLHDG('FIRST NAME')
+000006140121     A            LASTNAME      20          COLHDG('LAST NAME')
+000007140121     A            BIRTHDATE       L
+000008140311     A            PHONE         10S 0       COLHDG('PHONE' 'NUMBER')
+000009140121     A            ADDRESS       30          COLHDG('STREET' 'ADDRESS')
+000010140121     A            CITY          15
+000011140121     A            PROVINCE       2          COLHDG('PROV' 'CODE')
+000012140121
+000013140121     A            POSTALCODE     6          COLHDG('POSATAL' 'CODE')
+000014140121     A            FEESOWED       7P 2       COLHDG('FEES' 'OWED')
+000015140121     A            FINESOWED      7P 2       COLHDG('FINES' 'OWED')
+000016140121     A          K STUDENTNO

@@ -1,0 +1,40 @@
+000100120314     A                                      REF(STUDENTS STUDENTSR)
+000200120314     A          R RECORD1                   CA03(03 'Exit')
+000300120314     A                                  1  2USER
+000400120314     A                                  6  4'Birth Date:'
+000500120314     A                                  7  4'Address:'
+000600120314     A                                 10  4'Fines Owed:'
+000700120314     A                                 11  4'Fees Owed:'
+000800120314     A                                  4 51'Phone:'
+000900120314     A                                  5  4'Name:'
+001000120314     A                                  1 30'Student Information'
+001100120314     A                                  4  4'Student Number'
+001200120314     A            BIRTHDATE R        O  6 22
+001300120314     A            STUDENTNO R        O  4 22
+001301120314     A                                      EDTWRD('   -   -   ')
+001400120314     A            FULLNAME      25   O  5 22
+001500120314     A            FINESOWED R        O 10 22
+001501140318     A                                      EDTCDE(1)
+001502140318     A  60                                  DSPATR(RI)
+001600120314     A            FEESOWED  R        O 11 22
+001601140318     A                                      EDTCDE(1)
+001602140318     A  61                                  DSPATR(RI)
+001700120314     A            PHONE     R        O  4 59
+001701140318     A                                      EDTWRD('0(   )&   -    ')
+001702140311
+001800120314     A                                 12 36'F3 - Exit'
+001900120314     A            ADDRESS   R        O  7 22
+002000120314     A          R RECORD2
+002100120314     A                                  1 30'Student Summary'
+002200120314     A                                  6 13'Fines Owed:'
+002300120314     A                                  7 14'Fees Owed:'
+002400120314     A                                  4  9'Total Students:'
+002500120314     A                                  9 12'Total Owing:'
+002600120314     A                                  1  2USER
+002700140311     A                                  1 13'FEDOR BARANNIK'
+002900140318     A            FINESTOTAL     6  2O  6 27EDTCDE(1 $)
+003000140318     A            FEESTOTAL      6  2O  7 27EDTCDE(1 $)
+003100140318     A            TOTAL          6  2O  9 27EDTCDE(1 $)
+003200140318     A            TOTSTUD        3  0O  4 27EDTCDE(1)
+003201120314     A                                  1 52DATE
+003202120329
